@@ -86,8 +86,6 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.csproj.CopyComplete
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.dll
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.pdb
-D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.Migrations.Initial.resources
-D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.csproj.GenerateResource.cache
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.ServiceLocation.dll
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.Configuration.dll
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.dll
@@ -97,7 +95,6 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.Configuration.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
-D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.Migrations.Druga.resources
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Castle.Core.dll
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Moq.dll
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
@@ -106,3 +103,5 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\Moq.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\bin\System.Threading.Tasks.Extensions.xml
+D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.Migrations.Initial.resources
+D:\Software development\C Sharp Practice\ASP.NET WEB API\CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi\obj\Debug\CitiesApp.Asp.NetWebApi.csproj.GenerateResource.cache

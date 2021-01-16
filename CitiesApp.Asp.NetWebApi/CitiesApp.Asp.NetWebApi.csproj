@@ -194,13 +194,9 @@
     </Compile>
     <Compile Include="Interfaces\ICityRepo.cs" />
     <Compile Include="Interfaces\ICountryRepo.cs" />
-    <Compile Include="Migrations\202101151650013_Initial.cs" />
-    <Compile Include="Migrations\202101151650013_Initial.designer.cs">
-      <DependentUpon>202101151650013_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101152121116_Druga.cs" />
-    <Compile Include="Migrations\202101152121116_Druga.designer.cs">
-      <DependentUpon>202101152121116_Druga.cs</DependentUpon>
+    <Compile Include="Migrations\202101161226124_Initial.cs" />
+    <Compile Include="Migrations\202101161226124_Initial.designer.cs">
+      <DependentUpon>202101161226124_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\City.cs" />
@@ -243,6 +239,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\CityScript.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -296,11 +293,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101151650013_Initial.resx">
-      <DependentUpon>202101151650013_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101152121116_Druga.resx">
-      <DependentUpon>202101152121116_Druga.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101161226124_Initial.resx">
+      <DependentUpon>202101161226124_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -26,7 +26,7 @@ namespace CitiesApp.Asp.NetWebApi.Controllers
             return _repository.GetAll();
         }
 
-
+        [Route("api/search")]
         public IEnumerable<City> Search(Filter filter)
         {
             return _repository.Search(filter);

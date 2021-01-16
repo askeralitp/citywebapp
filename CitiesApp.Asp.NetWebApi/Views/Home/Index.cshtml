@@ -1,24 +1,146 @@
-﻿<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-        is an ideal platform for building RESTful applications on the .NET Framework.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+﻿@section Scripts {
+    @Scripts.Render("~/Scripts/CityScript.js")
+}
+<br />
+
+
+
+<div class="container">
+    <br />
+
+    <div class="row">
+        <h2 id="info" style="text-align:center; background-color:orange" ><strong> Cities and countries</strong> </h2>
+       
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+
+ 
+
+
+    <div class="container">
+
+
+        <div class="row" style="text-align:center;display:block" id="pretraga">
+            <h4><strong>Search the city by population</strong></h4>
+            <br />
+
+            <form class="form-inline" action="/action_page.php">
+                <div class="form-group">
+                    <label for="from" style="margin-right:50px">From:</label>
+                    <input type="number" class="form-control" id="from" placeholder="Enter population" style="margin-right:50px">
+                </div>
+                <div class="form-group">
+                    <label for="do" style="margin-right:50px">To:</label>
+                    <input type="number" class="form-control" id="to" placeholder="Enter population" >
+                </div>
+
+                <button type="submit" class="btn btn-default" style="background-color:orange;margin-left:50px;  width:100px;">Search</button>
+            </form>
+        </div>
+
+
+
+        <br />
+        <br />
+
+
+        <div class="row">
+
+
+
+            <div id="data" style="text-align:center">
+            </div>
+            <button id="refreshTable" class="btn btn-default" style="text-align:center;background-color:orange;margin-left:45%;  width:100px;">Refresh table</button>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
+    <br />
+    
+ 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-4" style="margin-right:10%">
+                <form class="form-horizontal" method="post" action="post/" id="addCountryForm" style="display:block">
+
+                    <h3>Add new country</h3>
+                    <br />
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Name:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <input type="text" class="form-control" id="nameCountry" placeholder="Enter name" required minlength="3" maxlength="40">
+
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Country code:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <input type="text" class="form-control" id="countryCode" placeholder="Enter code"required minlength="2" maxlength="10" >
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-default" style="float:left;width:95px;background-color:orange">Add</button>
+                            <button type="reset" class="btn btn-default" style="float:right;width:95px">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div class="col-sm-offset-1 col-sm-4">
+                <form class="form-horizontal" method="post" action="post/" id="addCityForm" style="display:block">
+                    <h3>Add new city</h3>
+                    <br />
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Name:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <input type="text" class="form-control" id="nameCity"placeholder="Enter name" required minlength="2" maxlength="40">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Zip code:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <input type="number" class="form-control" id="zipCode"placeholder="Enter zip code" required min="1" max="9999999">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Population:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <input type="number" class="form-control" id="population" placeholder="Enter population" required min="1" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-pull-4">Country:</label>
+                        <div class="col-sm-8" style="float:right">
+                            <select class="form-control" id="country" required>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-default" style="float:left;width:95px;background-color:orange">Add</button>
+                            <button type="reset" class="btn btn-default" style="float:right;width:95px">Reset</button>
+                        </div>
+                    </div>
+                </form>
+
+
+
+            </div>
+
+        </div>
+
+
+
     </div>
+
+
+
+
+
 </div>
