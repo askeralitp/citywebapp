@@ -21,7 +21,7 @@ namespace CitiesApp.Asp.NetWebApi.Controllers
         }
 
 
-        public IEnumerable<City> Get()
+        public IEnumerable<City> GetAll()
         {
             return _repository.GetAll();
         }

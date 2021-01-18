@@ -39,7 +39,7 @@
 			var table = $("<table class='table table-bordered' ></table>");
 
 
-			var header = $("<thead><tr style='background-color:orange'><td>Id</td><td>Name</td><td>Zip code</td><td>Population</td><td>Country</td><td>Delete</td></tr></thead>");
+			var header = $("<thead><tr style='background-color:orange'><td>Id</td><td>Name</td><td>Zip code</td><td>Population</td><td>Country</td><td>Option</td></tr></thead>");
 
 
 			table.append(header);

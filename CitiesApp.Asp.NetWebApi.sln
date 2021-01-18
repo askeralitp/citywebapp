@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesApp.Asp.NetWebApi", "CitiesApp.Asp.NetWebApi\CitiesApp.Asp.NetWebApi.csproj", "{9CA967BF-373E-476F-A68E-E54436DD43F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesApp.Asp.NetWebApi.Tests", "CitiesApp.Asp.NetWebApi.Tests\CitiesApp.Asp.NetWebApi.Tests.csproj", "{E1A4CAAB-5F2D-4961-951B-71ECD98831C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesApp.Asp.NetWebApiTests", "CitiesApp.Asp.NetWebApiTests\CitiesApp.Asp.NetWebApiTests.csproj", "{7EFF9F24-93D1-48CB-9D8C-AD331F009AF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9CA967BF-373E-476F-A68E-E54436DD43F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA967BF-373E-476F-A68E-E54436DD43F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA967BF-373E-476F-A68E-E54436DD43F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1A4CAAB-5F2D-4961-951B-71ECD98831C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1A4CAAB-5F2D-4961-951B-71ECD98831C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1A4CAAB-5F2D-4961-951B-71ECD98831C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1A4CAAB-5F2D-4961-951B-71ECD98831C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFF9F24-93D1-48CB-9D8C-AD331F009AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFF9F24-93D1-48CB-9D8C-AD331F009AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFF9F24-93D1-48CB-9D8C-AD331F009AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFF9F24-93D1-48CB-9D8C-AD331F009AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
